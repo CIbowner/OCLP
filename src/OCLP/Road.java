@@ -12,7 +12,7 @@ public class Road{
         Geometry geometry_ground = new Geometry("Road", ground);
 
         Material mat = new Material(assetManager, "Common/MatDefs/Misc/Unshaded.j3md");
-        mat.setTexture("ColorMap",assetManager.loadTexture("Textures/Road/flagstone4.jpg"));
+        mat.setTexture("ColorMap",assetManager.loadTexture("Textures/Road/Road.png"));
         geometry_ground.setMaterial(mat);
         
         return geometry_ground;
